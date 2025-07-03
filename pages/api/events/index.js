@@ -1,6 +1,6 @@
 const eventData = {
   "active_program": {
-    "id": 5,
+    "id": 2,
     "product_id": 2,
     "name_event": "Gift Voucher Dadakan",
     "start_date": "2025-05-01 00:00:00",

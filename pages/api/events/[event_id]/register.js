@@ -108,8 +108,20 @@ export default async function handler(req, res) {
     mockDatabase.push(record);
 
     return res.status(201).json({
-      message: "Registrasi berhasil.",
-      data: record,
+      message: "mengikuti",
+      data: {
+        "user_id": 6,
+        "full_name": "Agung C",
+        "address": null,
+        "event_id": 2,
+        "start_date": "2025-06-01 00:00:00",
+        "end_date": "2025-07-30 23:59:59",
+        "draw_date": "2025-08-01 00:00:00",
+        "name_event": "Tabrak Mendadak Agustus",
+        "event_image_url": "http://localhost:8000/storage/32/banner-2.jpg",
+        "description": "<p>Tabrak Mendadak Agustus</p>",
+        "link": " "
+      },
     });
 
   } catch (err) {
